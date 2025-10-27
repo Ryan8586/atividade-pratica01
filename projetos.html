@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projetos — ConectaVida</title>
+  <meta name="description" content="Lista de projetos sociais e oportunidades de voluntariado.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="ConectaVida — Página inicial">
+        <svg class="logo" width="40" height="40" viewBox="0 0 48 48" aria-hidden="true">
+          <rect rx="8" width="48" height="48" fill="#FF8A33"></rect>
+          <circle cx="24" cy="20" r="8" fill="#2B2B2B"></circle>
+        </svg>
+        <span class="brand-name">ConectaVida</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
+        <button id="nav-toggle-2" aria-controls="nav-list-2" aria-expanded="false">Menu</button>
+        <ul id="nav-list-2" class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <h1>Projetos Sociais</h1>
+    <p class="lead">Conheça os projetos ativos e oportunidades de engajamento.</p>
+
+    <section aria-labelledby="filter-title" class="filter-bar">
+      <h2 id="filter-title" class="visually-hidden">Filtrar projetos</h2>
+      <form id="filter-form" class="filter-form" role="form" aria-label="Filtrar projetos por categoria e status">
+        <label>
+          Categoria
+          <select name="categoria" id="categoria">
+            <option value="">Todas</option>
+            <option>Educação</option>
+            <option>Saúde</option>
+            <option>Meio ambiente</option>
+            <option>Inclusão</option>
+          </select>
+        </label>
+        <label>
+          Status
+          <select name="status" id="status">
+            <option value="">Todos</option>
+            <option>Em andamento</option>
+            <option>Encerrado</option>
+            <option>Proposta</option>
+          </select>
+        </label>
+        <button type="submit" class="btn">Filtrar</button>
+      </form>
+    </section>
+
+    <section class="projects-grid" aria-labelledby="projects-title">
+      <h2 id="projects-title">Lista de projetos</h2>
+
+      <article class="project" tabindex="0" aria-labelledby="p1-title">
+        <h3 id="p1-title">Projeto Aprender & Crescer</h3>
+        <p class="meta">Categoria: Educação — Status: Em andamento</p>
+        <p>Atividades de reforço escolar para crianças de comunidades periféricas. Buscamos voluntários e doações de materiais.</p>
+        <p><a href="cadastro.html?role=voluntario" class="btn">Quero ser voluntário</a> <a href="#" class="btn outline">Doar</a></p>
+      </article>
+
+      <article class="project" tabindex="0" aria-labelledby="p2-title">
+        <h3 id="p2-title">Saúde na Praça</h3>
+        <p class="meta">Categoria: Saúde — Status: Em andamento</p>
+        <p>Clínicas móveis e ações de prevenção com profissionais voluntários nas praças da cidade.</p>
+        <p><a href="cadastro.html?role=voluntario" class="btn">Participar</a> <a href="#" class="btn outline">Apoiar</a></p>
+      </article>
+
+      <article class="project" tabindex="0" aria-labelledby="p3-title">
+        <h3 id="p3-title">Verde Comunitário</h3>
+        <p class="meta">Categoria: Meio ambiente — Status: Proposta</p>
+        <p>Projeto de hortas comunitárias e educação ambiental.</p>
+        <p><a href="cadastro.html?role=voluntario" class="btn">Inscrever-se</a> <a href="#" class="btn outline">Doar</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year-2"></span> ConectaVida — Plataforma educacional.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

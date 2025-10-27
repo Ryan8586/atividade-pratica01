@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG ConectaVida — Transformando Vidas</title>
+  <meta name="description" content="Plataforma de gestão e divulgação de projetos sociais para ONGs.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="ConectaVida — Página inicial">
+        <svg class="logo" width="48" height="48" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <rect rx="8" width="48" height="48" fill="#FF8A33"></rect>
+          <circle cx="24" cy="20" r="8" fill="#2B2B2B"></circle>
+        </svg>
+        <span class="brand-name">ConectaVida</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
+        <button id="nav-toggle" aria-controls="nav-list" aria-expanded="false">Menu</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Fortalecendo ONGs com tecnologia</h1>
+      <p class="lead">Plataforma demo para gestão de projetos, captação de recursos e engajamento de voluntários.</p>
+      <p><a class="cta" href="projetos.html">Conheça os projetos</a> <a class="cta outline" href="cadastro.html">Seja voluntário</a></p>
+      <div class="hero-media" aria-hidden="true">
+        <!-- SVG illustration placeholder -->
+        <svg width="600" height="320" viewBox="0 0 600 320" role="img" aria-hidden="true">
+          <rect width="600" height="320" rx="16" fill="#1F1F1F"/>
+          <g transform="translate(30,20)">
+            <rect width="240" height="120" rx="8" fill="#FF8A33" />
+            <rect x="260" y="0" width="260" height="120" rx="8" fill="#3A3A3A" />
+            <rect y="140" width="520" height="140" rx="8" fill="#2B2B2B" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="about" aria-labelledby="about-title">
+      <h2 id="about-title">Sobre a organização</h2>
+      <p>ConectaVida é uma ONG fictícia criada para demonstrar uma plataforma completa para gestão e divulgação de projetos sociais. Nossa missão é ampliar o impacto das iniciativas locais por meio de tecnologia e transparência.</p>
+
+      <div class="cards">
+        <article class="card" aria-labelledby="missao">
+          <h3 id="missao">Missão</h3>
+          <p>Promover inclusão social através de educação, saúde e capacitação profissional.</p>
+        </article>
+
+        <article class="card" aria-labelledby="visao">
+          <h3 id="visao">Visão</h3>
+          <p>Ser referência em projetos comunitários e colaboração entre doadores e voluntários.</p>
+        </article>
+
+        <article class="card" aria-labelledby="valores">
+          <h3 id="valores">Valores</h3>
+          <p>Transparência, respeito, diversidade e impacto mensurável.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlights" aria-labelledby="highlights-title">
+      <h2 id="highlights-title">Nossas funcionalidades</h2>
+      <ul>
+        <li>Gestão de projetos com indicadores de impacto</li>
+        <li>Portal de voluntariado com histórico e certificados</li>
+        <li>Sistema de captação com metas e relatórios de transparência</li>
+        <li>Blog e newsletter para engajamento</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contato</h2>
+      <p>Telefone: <a href="tel:+5511999999999">+55 (11) 99999-9999</a></p>
+      <p>Email: <a href="mailto:contato@conectavida.org.br">contato@conectavida.org.br</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year"></span> ConectaVida — Plataforma educacional. <a href="README.md">Documentação</a></p>
+      <nav aria-label="Links de rodapé">
+        <ul class="footer-links">
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="#">Transparência</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

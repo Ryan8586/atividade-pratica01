@@ -1,0 +1,9 @@
+{
+  "name": "ConectaVida - Plataforma ONG",
+  "short_name": "ConectaVida",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f1112",
+  "theme_color": "#FF8A33",
+  "icons": []
+}
